@@ -1,0 +1,20 @@
+.nav-links {
+
+    li {
+        padding: 18px;
+        
+        a {
+            color: $white;
+            font-size: 18px; 
+            font-weight: $font-bold;
+            transition: $all-transitions;
+
+            &:hover {
+                color: $primary-color;
+            }
+
+        }
+
+    }
+    
+}

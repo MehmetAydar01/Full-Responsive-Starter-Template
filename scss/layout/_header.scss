@@ -1,0 +1,21 @@
+header {
+    background: $secondary-color;
+    position: fixed;
+    width: 100%;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    overflow: hidden;
+    z-index: 10;
+
+    .logo {
+
+        a {
+            color: $white;
+            font-size: 28px;
+            font-weight: $font-bold;
+            padding-left: 12px;
+        }
+        
+    }
+}
+

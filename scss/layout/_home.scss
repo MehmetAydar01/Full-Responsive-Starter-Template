@@ -1,0 +1,31 @@
+#home {
+    background: $primary-color;
+    text-align: center;
+    overflow: hidden;
+
+    .home-image-title {
+        margin-top: 120px;
+
+        .homeTitle {
+            color: $white;
+            font-size: 64px;
+            font-weight: $font-bold;
+            margin-bottom: 0;
+            margin-top: 48px;
+        }
+
+    }
+
+    .homeText {
+        text-align: center;
+
+        p {
+            color: $white;
+            font-size: 24px;
+            margin-bottom: 0;
+            font-weight: $font-normal;
+        }
+
+    }
+
+}

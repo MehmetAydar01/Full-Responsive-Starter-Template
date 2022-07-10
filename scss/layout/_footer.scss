@@ -1,0 +1,119 @@
+#location {
+    background: $secondary-color;
+    color: $white;
+    text-align: center;
+
+    .container {
+        padding: 0 12px;
+
+        .footerFlex {
+            display: flex;
+            justify-content: space-between;
+        }
+
+    }
+
+    .address {
+
+        p {
+            font-size: 20px;
+            margin-top: 0;
+            margin-bottom: 0;
+            line-height: 1.7;
+        }
+    }
+
+    h3 {
+        font-size: 24px;
+        margin: 0  0 24px;
+    }
+
+    .col4 {
+        width: 33.33%;
+        padding: 0 12px;
+    }
+
+    .socialMedia {
+
+        .flexis {
+            display: flex;
+            justify-content: center;
+            
+
+            i {
+                cursor: pointer;
+                display: inline-block;
+                width: 52px;
+                height: 52px;
+                line-height: 36px;
+                padding: 6px 12px;
+                margin: 0 4px;
+                border-radius: 50%;
+                border: 2px solid $white;
+                font-size: 21px;
+                transition: $all-transitions;
+
+                &:hover {
+                    background: $white;
+                    color: #000 ;
+                }
+            }
+
+        }
+
+    }
+
+    .aboutFreelancer {
+        text-align: center;
+        
+        p {
+            margin-top: 0;
+            margin-bottom: 0;
+            font-size: 20px;
+            text-align: center;
+
+            a {
+                text-transform: capitalize;
+                color: $primary-color;
+                text-decoration: underline;
+
+                &:hover {
+                    opacity: .9;
+                }
+
+            }
+
+        }
+
+    }
+
+}
+
+// COPYRIGHT SECTION
+
+#copyright {
+    background-color: #1A252F;
+    color: $white;
+    
+
+    .container {
+        padding: 0 12px;
+
+        .copy {
+            margin: 0 auto;
+            text-align: center;
+
+            p {
+                font-size: 14px;
+                color: $white;
+                height: 72px;
+                line-height: 72px;
+                opacity: .7;
+                margin: 0;
+            }
+
+        }
+
+    }
+
+}

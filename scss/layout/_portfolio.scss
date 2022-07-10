@@ -1,0 +1,60 @@
+#portfolio {
+    text-align: center;
+    padding-bottom: 32px;
+
+    .row {
+        
+        .col-4 {
+            width: 33.33%;
+            padding: 0 12px;
+            margin-bottom: 48px;
+    
+            .overlay {
+                position: relative;
+                overflow: hidden;
+    
+                img {
+                    width: 100%;
+                    border-radius: 10px;
+                }
+
+                .overlayShape {
+                    overflow: hidden;
+                    position: absolute;
+                    background-color: $primary-color;
+                    cursor: pointer;
+                    width: 100%;
+                    height: auto;
+                    top: 0;
+                    left: 0;
+                    right: 0;
+                    bottom: 0;
+                    opacity: 0;
+                    transition: $all-transitions;
+
+                    .plus {
+                        position: absolute;
+                        top: 50%;
+                        left: 50%;
+                        transform: translate(-50%, -50%);
+
+                        .fa-plus {
+                            color: $white;
+                            font-size: 72px;
+                        }
+
+                    }
+
+                    &:hover {
+                        opacity: .9;
+                    }
+
+                }
+    
+            }
+    
+        }
+        
+    }
+       
+}

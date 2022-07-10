@@ -1,0 +1,13 @@
+// Font
+
+$font-stack: 'Open Sans', sans-serif;
+
+// Font weights
+
+$font-light: 300;
+$font-normal: 400;
+$font-bold: 700;
+
+@mixin font() {
+    font-family: $font-stack;
+}

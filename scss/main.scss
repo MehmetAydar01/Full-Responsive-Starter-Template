@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap');
+
+// 1. Config files and helpers
+@import './abstracts/colors';
+@import './abstracts/type';
+
+// 2. Vendor
+@import './vendor/normalize';
+
+// 3. Base styles
+@import './base/base';
+@import './base/typography';
+
+// 4. Layout
+@import './layout/grid';
+@import './layout/nav';
+@import './layout/header';
+@import './layout/home';
+@import './layout/portfolio';
+@import './layout/about';
+@import './layout/contact';
+@import './layout/footer';
+@import './layout/responsive';
+
+// 5. Components
+@import './components/buttons';

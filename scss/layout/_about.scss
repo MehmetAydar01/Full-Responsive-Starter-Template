@@ -1,0 +1,63 @@
+#about {
+    padding-bottom: 96px;
+    text-align: center;
+    background: $primary-color;
+
+    .section-top {
+
+        h2 {
+            color: $white;
+        }
+    }
+
+    .about-content {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+
+        .col-2 {
+            width: 35%;
+            text-align: left;
+            margin-right: 0px;
+            margin-left: 20px;
+
+            p {
+                color: $white;
+                font-size: 20px;
+                line-height: 1.4;
+                margin: 0 0 16px;
+                font-weight: $font-normal;
+            }
+
+        }
+
+    }
+
+    .about-btn {
+        margin: 24px 0  0;
+
+        a {
+            color: $white;
+            padding: 16px 28px;
+            font-size: 20px;
+            border: 2px solid $white;
+            border-radius: 8px;
+            transition: $all-transitions;
+            text-transform: capitalize;
+
+            &:hover {
+                color: #000;
+                background-color: $white;
+            }
+
+            .fa-download {
+                font-size: 20px;
+                margin-right: 5px;
+            }
+
+        }
+
+    }
+
+}

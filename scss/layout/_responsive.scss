@@ -1,0 +1,640 @@
+/* MEDIA QUERIES */
+
+@media screen and (max-width: 992px) {
+
+    // Home
+    #home {
+
+        .home-image-title {
+
+            .homeTitle {
+                font-size: 52px;
+            }
+
+            img {
+                display: inline-block;
+                width: 228px;
+                height: 228px;
+            }
+    
+        }
+
+        .homeText {
+    
+            p {
+                font-size: 22px;
+            }
+        }
+    }
+
+    // section-top
+    .section-top {
+        
+        h2 {
+            font-size: 42px;
+        }
+    }
+
+    // Footer Location
+    #location {
+
+        .address {
+    
+            p {
+                font-size: 18px;
+            }
+        }
+    
+        h3 {
+            font-size: 21px;
+        }
+
+        .socialMedia {
+    
+            .flexis {
+            
+                i {
+                    width: 48px;
+                    height: 48px;
+                    line-height: 32px;
+                    font-size: 19px;
+                }
+            }
+        }
+    
+        .aboutFreelancer {
+            
+            p {
+                font-size: 18px;
+            }
+        }
+    }
+
+    // Portfolio
+    #portfolio {
+
+        .row {
+
+            .col-4 {
+
+                .overlay {
+
+                    .overlayShape {
+
+                        .plus {
+
+                            .fa-plus {
+                                font-size: 48px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+
+    // Header-logo
+    header {
+    
+        z-index: 100;
+        .logo {
+    
+            a {
+                font-size: 25px; 
+            }    
+        }
+    }
+
+    // Header-Nav
+    .nav-links {
+
+        li {
+            
+            a {
+                font-size: 16px; 
+            }
+        }  
+    }
+
+    // Home
+    #home {
+
+        .home-image-title {
+
+            .homeTitle {
+                font-size: 48px;
+            }
+
+            img {
+                width: 214px;
+                height: 214px;
+            }
+        }
+
+        .homeText {
+    
+            p {
+                font-size: 20px;
+            }
+        }
+    }
+
+    // section-top
+    .section-top {
+        
+        h2 {
+            font-size: 36px;
+        }
+    }
+
+    // Footer Location
+    #location {
+    padding-top: 40px;
+
+        .container {
+    
+            .footerFlex {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+
+                .col4 {
+                    width: 80%;
+                    margin-top: 40px;
+                }
+            }
+        }
+
+        .address {
+    
+            p {
+                font-size: 20px;
+            }
+        }
+    
+        h3 {
+            font-size: 22px;
+        }
+
+        .socialMedia {
+    
+            .flexis {
+            
+                i {
+                    width: 48px;
+                    height: 48px;
+                    line-height: 32px;
+                    font-size: 19px;
+                }
+            }
+        }
+    
+        .aboutFreelancer {
+            
+            p {
+                font-size: 20px;
+            }
+        }
+    }
+
+    // Contact Form
+    #contact {
+    
+        .contactForm {
+            width: 75%;
+    
+            textarea {
+                height: 140px;
+            }
+    
+            input, textarea {         
+                font-size: 18px;
+            }
+        }
+    }
+
+    // Star
+    .starList {
+    
+        .starBeforeLine {
+            width: 100px;
+        }
+    
+        .star {
+            font-size: 28px;
+        }
+    
+        .starAfterLine {
+            width: 100px;
+        }
+    }
+
+    // Portfolio
+    #portfolio {
+    
+        .row {
+            flex-direction: column;
+
+            .col-4 {
+                width: 70%;
+        
+                .overlay {
+    
+                    .overlayShape {
+
+                        .plus {
+
+                            .fa-plus {
+                                font-size: 64px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    // About
+    #about {
+    
+        .about-content {
+
+            .col-2 {
+                width: 100%;
+    
+                p {
+                    font-size: 18px;
+                }
+            }
+        }
+    
+        .about-btn {
+
+            a {
+                font-size: 18px;
+
+                .fa-download {
+                    font-size: 18px;
+                }
+            }
+        }
+    }
+
+}
+
+@media screen and (max-width: 650px) {
+
+    // Header-logo
+    header {
+    
+        z-index: 100;
+        .logo {
+    
+            a {
+                font-size: 18px; 
+            }    
+        }
+    }
+
+    // Header-Nav
+    .nav-links {
+
+        li {
+            padding: 14px;
+            a {
+                font-size: 14px; 
+            }
+        }  
+    }
+
+    // Home
+    #home {
+
+        .home-image-title {
+
+            .homeTitle {
+                font-size: 36px;
+            }
+
+            img {
+                width: 200px;
+                height: 200px;
+            }
+        }
+
+        .homeText {
+    
+            p {
+                font-size: 18px;
+            }
+        }
+    }
+
+    // section-top
+    .section-top {
+        
+        h2 {
+            font-size: 32px;
+        }
+    }
+
+    // Footer Location
+    #location {
+
+        .address {
+    
+            p {
+                font-size: 18px;
+            }
+        }
+    
+        h3 {
+            font-size: 20px;
+        }
+
+        .socialMedia {
+    
+            .flexis {
+            
+                i {
+                    width: 42px;
+                    height: 42px;
+                    line-height: 26px;
+                    font-size: 16px;
+                }
+            }
+        }
+    
+        .aboutFreelancer {
+            
+            p {
+                font-size: 18px;
+            }
+        }
+    }
+
+    // Contact Form
+    #contact {
+    
+        .contactForm {
+
+            textarea {
+                height: 120px;
+            }
+    
+            input, textarea {         
+                font-size: 16px;
+            }
+        }
+    }
+
+    // Star
+    .starList {
+    
+        .starBeforeLine {
+            width: 85px;
+        }
+    
+        .star {
+            font-size: 25px;
+        }
+    
+        .starAfterLine {
+            width: 85px;
+        }
+    }
+
+    // Portfolio
+    #portfolio {
+    
+        .row {
+            flex-direction: column;
+
+            .col-4 {
+                width: 70%;
+        
+                .overlay {
+    
+                    .overlayShape {
+
+                        .plus {
+
+                            .fa-plus {
+                                font-size: 56px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    // About
+    #about {
+    
+        .about-content {
+            flex-direction: column;
+            align-items: center;
+
+            .col-2 {
+                width: 85%;
+                overflow: hidden;
+
+                p {
+                    font-size: 16px;
+                }
+            }
+        }
+    
+        .about-btn {
+
+            a {
+                font-size: 16px;
+
+                .fa-download {
+                    font-size: 16px;
+                }
+            }
+        }
+    }
+
+    // Contact Form Button
+    #contact {
+
+        .btn {
+            padding: 10px 22px;
+            font-size: 14px;
+        }
+    }
+
+}
+
+@media screen and (max-width: 525px) {
+
+    // Header-logo
+    header {
+
+        .grid {
+            flex-direction: column;
+        }
+
+        .logo {
+    
+            a {
+                font-size: 26px;
+            }    
+        }
+    }
+
+    // Header-Nav
+    .nav-links {
+
+        li {
+            padding: 14px 5px;
+            margin-top: 10px;
+
+            a {
+                font-size: 18px; 
+            }
+        }  
+    }
+
+    // Home
+    #home {
+
+        .home-image-title {
+
+            .homeTitle {
+                font-size: 32px;
+            }
+
+            img {
+                margin-top: 110px;
+                width: 180px;
+                height: 180px;
+            }
+        }
+
+        .homeText {
+    
+            p {
+                font-size: 16px;
+            }
+        }
+    }
+
+    // section-top
+    .section-top {
+        
+        h2 {
+            font-size: 28px;
+        }
+    }
+
+    // Footer Location
+    #location {
+
+
+        .address {
+    
+            p {
+                font-size: 16px;
+            }
+        }
+    
+        h3 {
+            font-size: 19px;
+        }
+    
+        .aboutFreelancer {
+            
+            p {
+                font-size: 18px;
+            }
+        }
+    }
+
+    // Contact Form
+    #contact {
+    
+        .contactForm {
+
+            textarea {
+                height: 105px;
+            }
+    
+            input, textarea {         
+                font-size: 15px;
+            }
+        }
+    }
+
+    // Star
+    .starList {
+    
+        .starBeforeLine {
+            width: 75px;
+        }
+    
+        .star {
+            font-size: 23px;
+        }
+    
+        .starAfterLine {
+            width: 75px;
+        }
+    }
+
+    // Portfolio
+    #portfolio {
+    
+        .row {
+
+            .col-4 {
+                width: 70%;
+        
+                .overlay {
+    
+                    .overlayShape {
+
+                        .plus {
+
+                            .fa-plus {
+                                font-size: 48px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    // About
+    #about {
+    
+        .about-btn {
+
+            a {
+                font-size: 15px;
+
+                .fa-download {
+                    font-size: 15px;
+                }
+            }
+        }
+    }
+
+    // Contact Form Button
+    #contact {
+
+        .btn {
+            font-size: 14px;
+        }
+    }
+
+}
+

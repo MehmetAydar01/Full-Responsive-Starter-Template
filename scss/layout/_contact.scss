@@ -1,0 +1,37 @@
+#contact {
+    text-align: center;
+
+    .contactForm {
+        width: 60%;
+        margin: 0 auto;
+
+        textarea {
+            height: 160px;
+        }
+
+        input, textarea {
+            width: 100%;
+            outline: none;
+            border: none;
+            border-bottom: 1px solid #f00;
+            padding: 24px 48px 24px 0;
+            margin-bottom: 16px;
+            font-size: 20px;
+            color: $secondary-color;
+
+            &::placeholder {
+                padding-bottom: 30px;
+                color: $secondary-color;
+                font-weight: $font-normal;
+            }
+
+            &:focus::placeholder {
+                font-size: 15px;
+                color: #C0C4C7;
+            }
+
+        }
+
+    }
+
+}

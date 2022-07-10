@@ -1,0 +1,44 @@
+section {
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.starList {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    margin: 20px 0 24px;
+
+    .starBeforeLine {
+        width: 112px;
+        height: 4px;
+        display: inline-block;
+        margin-right: 20px;
+        border-radius: 10px;
+    }
+
+    .star {
+        font-size: 32px;
+    }
+
+    .starAfterLine {
+        width: 112px;
+        height: 4px;
+        display: inline-block;
+        margin-left: 20px;
+        border-radius: 10px;
+    }
+
+}
+
+.section-top {
+        
+    h2 {
+        color: $secondary-color;
+        font-size: 48px;
+        margin: 0;
+        padding: 0;
+    }
+
+}
